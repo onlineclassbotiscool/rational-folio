@@ -14,6 +14,7 @@ export default {
     },
     extend: {
       colors: {
+        border: "hsl(var(--card-border))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         surface: {
