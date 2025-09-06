@@ -1,10 +1,10 @@
 export const SimpleGraph = () => {
   return (
-    <div className="p-8 bg-background text-text-primary">
-      <h1 className="text-2xl font-serif mb-4">Simple Graph Test</h1>
-      <p className="text-text-secondary">Testing without D3 to isolate React issues.</p>
-      <div className="mt-8 w-full h-96 border border-border rounded-lg bg-surface flex items-center justify-center">
-        <p className="text-text-secondary">Graph placeholder - React working correctly</p>
+    <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
+      <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>Simple Test</h1>
+      <p>Testing minimal React setup</p>
+      <div style={{ marginTop: "2rem", width: "100%", height: "200px", border: "1px solid #ccc", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <p>React is working correctly now</p>
       </div>
     </div>
   );
