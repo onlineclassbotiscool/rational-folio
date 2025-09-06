@@ -1,7 +1,7 @@
-import { GraphVisualization } from "@/components/graph/GraphVisualization";
+import { TradingDashboard } from "@/components/trading/TradingDashboard";
 
 const Index = () => {
-  return <GraphVisualization />;
+  return <TradingDashboard />;
 };
 
 export default Index;
