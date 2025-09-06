@@ -1,7 +1,7 @@
-import { SimpleGraph } from "@/components/graph/SimpleGraph";
+import { GraphVisualization } from "@/components/graph/GraphVisualization";
 
 const Index = () => {
-  return <SimpleGraph />;
+  return <GraphVisualization />;
 };
 
 export default Index;
